@@ -212,6 +212,44 @@ nav ul li a:hover {
                 padding: 10px;
             }
         }
+
+        /* Responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem; /* Ukuran font lebih kecil di perangkat kecil */
+    }
+
+    nav ul {
+        flex-direction: column; /* Mengubah arah menjadi kolom */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Jarak antar item nav */
+    }
+
+    .profile img {
+        width: 100px; /* Lebar gambar lebih kecil di perangkat kecil */
+        height: 100px; /* Tinggi gambar lebih kecil di perangkat kecil */
+    }
+
+    .education, .experience {
+        padding: 10px; /* Padding lebih kecil di perangkat kecil */
+    }
+
+    .experience-item {
+        flex-direction: column; /* Mengubah arah menjadi kolom */
+        align-items: flex-start; /* Menyelaraskan item ke kiri */
+    }
+
+    .experience-icon {
+        margin-bottom: 10px; /* Jarak antara ikon dan detail */
+    }
+
+    .social-icon {
+        width: 30px; /* Ukuran ikon lebih kecil di perangkat kecil */
+        height: 30px; /* Ukuran ikon lebih kecil di perangkat kecil */
+    }
+}
     </style>
     <script type="application/ld+json">
 {
